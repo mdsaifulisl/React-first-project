@@ -1,0 +1,355 @@
+
+
+:root {
+  --main-color: #2c2f24;
+  --red-color: #ad343e;
+  --black-color: #2c2f24;
+  --white-color: #ffffff;
+  --bg-color: #f9f9f7;
+}
+
+.hero {
+  height: 100vh;
+  background: #000 url(../../assets/images/heroBg.png) no-repeat;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero_content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero_content .heading {
+  line-height: 60px;
+  margin-bottom: 1.5rem;
+}
+.hero_btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.hero_btn a {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid var(--black-color);
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.hero_btn a:hover {
+  background-color: var(--red-color);
+  color: var(--white-color);
+}
+/* Hero end */
+
+/* Browse Our Menu  Start*/
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 370px;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.menu img {
+  width: 100px;
+  height: 100px;
+}
+.menu a {
+  color: var(--red-color);
+}
+.menu a:hover {
+  color: #703d41;
+}
+/* Browse Our Menu  Start end*/
+
+/* We provide healthy food for your family. */
+
+.provide{
+  background-color: var(--bg-color);
+  padding: 2rem 0 7rem 0;
+}
+
+.provide_contact {
+  position: relative;
+  height: 560px;
+  width: 100%;
+  background: #000 url(../../assets/images/provide.png) no-repeat center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.contact_items{
+  position: absolute;
+  width: 70%;
+  bottom: -3rem; right: -3rem;
+  border-radius: 10px;
+  padding: 3rem;
+  background-color: #474747;
+
+}
+.contact_items h3{
+  color: var(--white-color);
+}
+.contact_items .icon_address{
+  display: flex;
+  gap: 1rem;
+}
+.contact_items .icon_address i{
+  font-size: 16px;
+  color: var(--white-color);
+
+}
+.contact_items .icon_address p{
+  color: var(--white-color);
+}
+
+.provide_content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 5rem;
+}
+.provide_content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* We provide healthy food for your family. End */
+
+/* We also offer unique services for your events. */
+.services_slider {
+  overflow: hidden;
+}
+.services_items{
+  display: flex;
+  gap: 24px;
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+.services_items::-webkit-scrollbar{
+  display: none;
+}
+.services_box{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.services_box img{
+  min-width: 100%;
+  border-radius: 10px;
+}
+/* We also offer unique services for your events. End */
+
+/* Fastest Food Delivery in City. Start */
+.fastest_food{
+  background-color: var(--bg-color);
+  padding: 5rem 0;
+}
+
+.food_img{
+  display: flex;
+  gap: 24px;
+}
+.food_img .food_shaef img{
+  width: 100%;
+}
+
+.food_img_all{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.food_img_all img{
+  width: 100%;
+}
+
+.food_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-left: 3rem;
+}
+/* Fastest Food Delivery in City. End */
+
+
+
+/* What Our Customers Say. Start */
+.customer_content{
+  padding: 2rem;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  height: 100%;
+}
+.customer_i{
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.customer_content .customer_i h3{
+  color: var(--red-color);
+}
+.customer_id{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.customer_id img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+/* What Our Customers Say. End */
+
+
+/* Our Blog & Articles. Start */
+.article{
+  background-color: var(--bg-color);
+}
+.article_heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article_heading a{
+  text-wrap: nowrap;
+}
+.article_item{
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.article_img img{
+  width: 100%;
+}
+
+/*  */
+.article_items{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.article_box {
+  display: flex;
+  gap: 24px;
+
+}
+.article_box .article_imgs{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+  height: 100%;
+  width: 50%;
+}
+.article_box .article_imgs img{
+  width: 100%;
+}
+/* Our Blog & Articles. End */
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1320px) {
+}
+@media (max-width: 1140px) {
+}
+@media (max-width: 960px) {
+  .contact_items{
+    width: 90%;
+    left: 50%;
+    padding: 1rem;
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .provide_content {
+    padding-left: 0;
+  }
+  .food_content{
+    padding-left: 0rem;
+  }
+  
+  /* What Our Customers Say. Start */
+  .customer_id img{
+    height: 60px;
+    width: 60px;
+  }
+  /* What Our Customers Say. End */
+}
+@media (max-width: 720px) {
+}
+@media (max-width: 540px) {
+  .hero_content {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .hero_content .heading {
+    color: var(--white-color);
+  }
+  .hero_content p {
+    color: var(--white-color);
+  }
+  .hero_btn {
+    flex-direction: column;
+  }
+  .hero_btn a {
+    color: var(--white-color);
+  }
+
+
+  /* We also offer unique services for your events */
+  .services_items{
+    gap: 14px;
+  }
+  /* We also offer unique services for your events. End */
+
+  /* Fastest Food Delivery in City. Start  */
+  .food_img{
+    gap: 14px;
+  }
+  .food_img_all{
+    gap: 14px;
+  }
+  /* Fastest Food Delivery in City. End */
+
+
+  /* What Our Customers Say. Start */
+  .customer_id img{
+    height: 50px;
+    width: 50px;
+  }
+  /* What Our Customers Say. End */
+
+
+  /* Our Blog & Articles. Start */
+
+  .article_heading{
+    flex-direction: column;
+    gap: 2rem;
+   
+  }
+  .article_items{
+    gap: 14px;
+  }
+  .article_box {
+    gap: 14px;
+  }
+  /* Our Blog & Articles. End */
+}

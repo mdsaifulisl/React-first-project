@@ -1,0 +1,133 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap");
+
+:root {
+  --main-color: #2C2F24;
+  --red-color: #AD343E;
+  --black-color: #2C2F24;
+  --white-color: #FFFFFF;
+  --bg-color: #F9F9F7;
+}
+
+.heading {
+  font-size: 100px;
+  font-weight: 400;
+  color: var(--black-color);
+}
+
+h2{
+  font-size: 55px;
+  font-weight: 600;
+}
+
+h3{ 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+.p{
+  font-size: 16px!important;
+}
+
+.pp{
+  font-size: 20px!important;
+}
+.ppp{
+  font-size: 20px!important;
+  color: var(--red-color);
+}
+.bold{
+  font-weight: bold;
+}
+
+.a{
+  font-size: 16px!important;
+  font-weight: bold;
+}
+.btns{
+  padding: 0.5rem 1.5rem;
+  border: 1px solid var(--black-color);
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.btns2{
+  padding: 0.5rem 1.5rem;
+  border: 1px solid var(--black-color);
+  border-radius: 30px;
+  transition: 0.5s;
+  background-color: var(--red-color);
+  color: var(--white-color);
+}
+.btns2:hover{
+  background-color: transparent;
+  color: var(--black-color);
+}
+.btns:hover{
+  background-color: var(--red-color);
+  color: var(--white-color);
+}
+.webkit_scrollbar{
+   overflow: auto;
+}
+.webkit_scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+@media (max-width: 1320px) {
+  .heading {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1140px) {
+  .heading {
+    font-size: 55px;
+    font-weight: 600;
+  }
+
+  h2{
+    font-size: 45px;
+  }
+}
+@media (max-width: 960px) {
+  p{
+    font-size: 16px;
+  }
+  .p{
+    font-size: 14px!important;
+  }
+  
+}
+@media (max-width: 720px) {
+  .heading {
+    font-weight: 500;
+  }
+  
+}
+@media (max-width: 540px) {
+}
+
+/* ----------------- */
+
+/* 
+
+@media (max-width: 1320px) {
+}
+@media (max-width: 1140px) {
+}
+@media (max-width: 960px) {
+}
+@media (max-width: 720px) {
+}
+@media (max-width: 540px) {
+}
+
+*/
+
